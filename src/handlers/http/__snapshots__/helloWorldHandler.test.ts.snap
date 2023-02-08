@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helloWorldHandler returns a response 1`] = `
+Object {
+  "body": "{\\"hello\\":\\"World\\"}",
+  "statusCode": 200,
+}
+`;
