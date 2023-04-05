@@ -89,7 +89,7 @@ const buildConfiguration = async () => {
             http: {
               cors,
               method: 'get',
-              path: 'people',
+              path: 'people/{n}',
             },
           },
         ],

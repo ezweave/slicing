@@ -11,8 +11,6 @@ node_modules
 # testing
 coverage
 
-
-
 # debug
 yarn-debug.log*
 yarn-error.log*

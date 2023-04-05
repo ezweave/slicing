@@ -9,8 +9,7 @@ describe(getFromSWAPI, () => {
     const getter = jest.fn().mockResolvedValue({
       data: LarsOwenJSON,
     });
-    const getPeople =
-      getFromSWAPI('https://swapi.dev/api/', getter)(`people`);
+    const getPeople = getFromSWAPI('https://swapi.dev/api/', getter)(`people`);
     const response = await getPeople(6);
     expect(response.data).toEqual(LarsOwenJSON);
     expect(getter).toHaveBeenCalledTimes(1);
