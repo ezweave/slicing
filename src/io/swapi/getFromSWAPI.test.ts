@@ -1,5 +1,3 @@
-import { writeFileSync } from 'fs';
-
 import LarsOwenJSON from '@slicing/__fixtures__/swapi/people/lars-owen.json';
 
 import { getFromSWAPI } from './getFromSWAPI';

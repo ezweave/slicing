@@ -6,7 +6,6 @@ import path from 'path';
 import { get } from 'lodash';
 
 import {
-  getDeploymentRegionFromEnv,
   getStageNameFromEnv,
 } from '@slicing/utilities/env';
 
